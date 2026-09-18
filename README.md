@@ -9,7 +9,7 @@ Building an isolated virtual lab for penetration testing and ethical hacking pra
 It can be used for activities such as: Network Footprinting, Port Scanning, Security Testing, and experimentation.
 
 ## Lab Architecture
-![Lab Architecture](lab-architecture.png)
+![Lab Architecture](lab.png)
 
 ## Steps
 1. **Installing 7-Zip:** To extract the Kali Linux virtual machine package.
@@ -22,15 +22,18 @@ It can be used for activities such as: Network Footprinting, Port Scanning, Secu
    * Directly using the `.vbox` file.
    * Set the network adapter to "NAT Network" and not just "NAT" because the latter will be set for the host machine.
    
-   ![Kali Install](kali-install.png)
+   ![Kali Install](kaliinstall.png)
 
 5. **Configuring Kali Linux IP address**
    * Right-click on the internet connection icon -> Edit Connection -> IPv4 -> Change method to Manual.
    
-   ![Kali IP](kali-ip.png)
+   ![Kali IP](kaliip.png)
 
 6. **Validation & connection testing**
-7. **Creating a snapshot of the virtual machine**
+   ![test1](test1.png)
+   ![test2](test2.png)
+   ![test3](test3.png)
+8. **Creating a snapshot of the virtual machine**
    
    ![Snapshot](snapshot.png)
 
